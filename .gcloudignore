@@ -1,0 +1,4 @@
+# Ignore unnecessary files and directories
+model/
+gcpllama/
+tmp/

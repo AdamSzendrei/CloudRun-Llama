@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: |
+    docker build -t europe-west1-docker.pkg.dev/$PROJECT_ID/llama/huggingface-llama-api:latest .
+  automapSubstitutions: true
+images:
+- 'europe-west1-docker.pkg.dev/$PROJECT_ID/llama/huggingface-llama-api:latest'
