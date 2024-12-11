@@ -27,6 +27,6 @@ EXPOSE 8000
 
 # Start FastAPI server
 # Local run
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+#CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 # GCP run
-#CMD bash -c "sleep 5 && gcsfuse $BUCKET_NAME /app/model && uvicorn app:app --host 0.0.0.0 --port 8000"
+CMD bash -c "sleep 5 && gcsfuse $BUCKET_NAME /app/model && uvicorn app:app --host 0.0.0.0 --port 8000"

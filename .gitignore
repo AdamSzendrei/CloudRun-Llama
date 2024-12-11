@@ -1,2 +1,7 @@
-model/
+model*
 gcpllama/
+gcpllama.py
+app_orig.py
+*.json
+gcs-key.json
+gcpllama.py
