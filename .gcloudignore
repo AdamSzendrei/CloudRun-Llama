@@ -4,6 +4,7 @@ model_Llama-3.1-8B-Instruct/
 gcpllama/
 app_orig.py
 gcpllama.py
+.DS_Store
 
 # Ignore hidden files and folders
 .*

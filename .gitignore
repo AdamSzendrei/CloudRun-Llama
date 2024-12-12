@@ -5,3 +5,4 @@ app_orig.py
 *.json
 gcs-key.json
 gcpllama.py
+.DS_Store
